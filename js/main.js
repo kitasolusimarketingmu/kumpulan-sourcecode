@@ -253,7 +253,7 @@ $(document).ready(function(){
     const powerup = this_element.querySelector(".powerup");
 
     if (!this_element.isOpen) {
-      powerup.style.backgroundImage = "url('"+item.image+"')";
+      powerup.style.backgroundImage = "url('"+baseUrl+"/"+item.image+"')";
       ctop.style.transform = "translateY(-3rem)";
       cleft.style.transform = "translateX(-3rem)";
       cright.style.transform = "translateX(3rem)";
