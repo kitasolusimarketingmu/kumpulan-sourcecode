@@ -1,6 +1,6 @@
 $(document).ready(function(){
   const transitionTime = "750ms";
-  const baseUrl = document.location.protocol+'//'+document.location.hostname+'/dashboard-multi-event/public_html';
+  const baseUrl = document.location.protocol+'//'+document.location.hostname;
 
   let audio = new Audio(baseUrl+'/assets-webbox/music/musik.mp3');
   audio.volume = 0.2
